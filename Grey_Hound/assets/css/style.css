@@ -1,4 +1,3 @@
-
 /* ================= HERO SECTION ================= */
 .hero-section-style {
   position: relative;
@@ -15,8 +14,8 @@
 .hero-section-style .custome-section-row {
   width: 100%;
   max-width: 100%;
-  padding:40px ;
- 
+  padding: 40px;
+
 }
 
 .hero-section-style h2 {
@@ -27,8 +26,8 @@
 
 .hero-section-style h4 {
   color: #77DAE6;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 34px;
+  
 }
 
 .hero-section-style p {
@@ -40,7 +39,7 @@
 /* ================= BUTTON ================= */
 .custom-btn-style {
   background-color: #77DAE6;
-  color: #ffff;
+  color: #2c2c2c;
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 12px;
@@ -64,36 +63,52 @@
   justify-content: center;
 }
 
-.content-sections .custome-section-row{
+.content-sections .custome-section-row {
 
   width: 100%;
   max-width: 1440px;
   padding: 50px 20px;
 
 }
-.content-sections
-.Our-Solutions-style{
+
+.content-sections .Our-Solutions-style {
   width: 100%;
   max-width: 1440px;
   padding: 0px !important;
 }
+
 .content-sections h2 {
   font-size: 30px;
   color: #0E0A39;
-  font-weight: 700;
+  font-weight: 600;
+}
+.content-sections h4{
+  font-size: 24px;
+  color: #0E0A39;
+  font-weight: 600;
+
 }
 
 .content-sections p {
   font-size: 16px;
+  font-weight: 300;
 }
 
 .content-sections ul li {
   line-height: 1.5em;
   font-size: 16px;
   margin-bottom: 16px;
+  font-weight: 300;
 }
-.our-solutions-section{
-  background-color: #064157;
+
+.content-sections b {
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 500;
+}
+
+.our-solutions-section {
+  background-color: #82A0AB;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,101 +130,60 @@
   min-height: 200px;
 }
 
-.testimoinal-section {
-  position: relative;
-  display: flex;
-  align-items: flex-end;   
-  min-height: 220px; 
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
-
-.testimonial-section-col {
-  max-width: 80%;
-  position: relative;
-  text-align: center;
-}
-
-.testimoinal-section .row {
-  width: 100%;
-  margin: 0;
-  padding: 0px !important;
-}
-.testimoinal-section-2 {
-  background-color: #ffff;
-}
-
-
-.testimoinal-section-2 .card{
-  border: none;
-  color: #064157;
-  background-color:#ffff !important ;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.content-sections
-.techstack-row-style-sd5re
-{
-  margin-top: 5%;
-  margin-bottom: 4%;
+.content-sections .custom-design-of-row {
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
   width: 100%;
   max-width: 1440px;
-  padding: 30px ;
-  padding-bottom:50px !important ;
+  padding: 30px;
+  padding-bottom: 50px !important;
 }
-.techstack-row-style-sd5re {
- background-color: #B44B17;
+
+.custom-design-of-row {
+  background-color: #B44B17;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .Tech-Stack-box {
   flex: 1 1 auto;
 }
 
-
 @media(max-width:980px) {
   .hero-section-style .custome-section-row {
-    padding:20px ;
-   
+    padding: 20px;
+
   }
+
   .typography-box {
     min-height: 150px;
   }
-  .testimonial-section-col {
-    max-width: 90%;
-  }
-  .testimoinal-section-2 {
-    padding: 30px 20px;
-  }
-  .content-sections
-.techstack-row-style-sd5re
-{
-  padding: 20px ;
-  padding-bottom:40px !important ;
-}
 
+  .content-sections .custom-design-of-row {
+    padding: 10px;
+    padding-bottom: 40px !important;
+  }
 
 }
 
-@media (max-width: 768px) {
-  .hero-text {
-    text-align: center !important;
-  }
+@media (max-width: 767px) {
+
   .hero-section-style .custome-section-row {
-    padding: 0px 0px;
+    padding: 0px 0px !important;
   }
+
   .Tech-Stack-box {
-    flex: 1 1 100%; /* stack on mobile */
+    flex: 1 1 100%;
+    /* stack on mobile */
   }
+
   .testimonial-section-col {
     max-width: 100%;
   }
 
   .content-sections .custome-section-row {
-    padding: 10px 10px;
+    padding: 10px 10px !important;
   }
 
   .hero-section-style {
@@ -219,7 +193,7 @@
   }
 
   .hero-section-style h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .hero-section-style h4 {
@@ -231,7 +205,11 @@
   }
 
   .content-sections h2 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .content-sections h4 {
+    font-size: 18px;
   }
 
   .content-sections p {
@@ -244,6 +222,11 @@
     margin-bottom: 10px;
   }
 
+  .content-sections b {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+
   .custom-btn-style {
     padding: 7px 14px;
     font-size: 13px;
@@ -253,22 +236,28 @@
     margin: 30px 20px !important;
   }
 
-  .custom-row-style-1 {
-    margin: 30px 20px !important;
-  }
-
-  
-
   .typography-box {
     min-height: 120px;
   }
-  .testimoinal-section-2 {
-    padding: 30px 10px;
+
+  .custom-design-of-row {
+    padding: 0px !important;
+    padding-bottom: 25px !important;
   }
-  .content-sections
-  .techstack-row-style-sd5re
-{
-  padding: 10px ;
-}
 }
 
+.testimonial-clm-style-09ssd1 {
+  background-image: url("../images/Trusted by Clients Proven by Results-img-sfh5sa.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 500px;
+  border-radius: 12px;
+}
+
+.testimonal-content-box {
+  background: rgba(48, 46, 46, 0.8);
+  padding: 22px;
+  border-radius: 12px;
+}

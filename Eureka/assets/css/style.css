@@ -6,7 +6,7 @@
   background-image: url("../images/iphtech-bg-img-01.png");
   background-size: cover;
   background-position: center;
-  min-height: 700px;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,8 +27,8 @@
 
 .hero-section-style h4 {
   color: #83d050;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 34px;
+  
 }
 
 .hero-section-style p {
@@ -40,8 +40,9 @@
 /* ================= BUTTON ================= */
 .custom-btn-style {
   background-color: #8EDD58;
-  color: #ffff;
+  color: #000;
   font-size: 16px;
+  font-weight: 500;
   padding: 10px 20px;
   border-radius: 12px;
   text-decoration: none;
@@ -50,8 +51,9 @@
 }
 
 .custom-btn-style:hover {
-  background-color: #83d050;
-  color: #ffff;
+  background-color: #fff !important;
+  color: #000;
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
 }
 
 /* ================= CONTENT SECTIONS ================= */
@@ -65,10 +67,12 @@
 }
 
 .content-sections .custome-section-row{
-
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
   width: 100%;
   max-width: 1440px;
-  padding: 50px 20px;
+  padding: 30px;
+  padding-bottom: 50px !important;
 
 }
 .content-sections
@@ -80,17 +84,31 @@
 .content-sections h2 {
   font-size: 30px;
   color: #0E0A39;
-  font-weight: 700;
+  font-weight: 600;
+}
+.content-sections h4{
+  font-size: 24px;
+  color: #0E0A39;
+  font-weight: 600;
+
 }
 
 .content-sections p {
   font-size: 16px;
+  font-weight: 300;
 }
 
 .content-sections ul li {
   line-height: 1.5em;
   font-size: 16px;
   margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.content-sections b {
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-weight: 500;
 }
 .our-solutions-section{
   background-image: url("../images/Frame 401.png");
@@ -195,10 +213,9 @@
 
 }
 
-@media (max-width: 768px) {
-  .hero-text {
-    text-align: center !important;
-  }
+@media (max-width: 767px) {
+
+ 
   .hero-section-style .custome-section-row {
     padding: 40px 20px;
   }
@@ -220,7 +237,7 @@
   }
 
   .hero-section-style h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .hero-section-style h4 {
@@ -232,7 +249,11 @@
   }
 
   .content-sections h2 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .content-sections h4 {
+    font-size: 18px;
   }
 
   .content-sections p {
@@ -243,6 +264,11 @@
     line-height: 1.3em;
     font-size: 13px;
     margin-bottom: 10px;
+  }
+
+  .content-sections b {
+    font-size: 15px !important;
+    line-height: 20px !important;
   }
 
   .custom-btn-style {
