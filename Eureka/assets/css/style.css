@@ -30,11 +30,7 @@
 
 }
 
-.hero-section-style p {
-  color: rgb(249, 246, 246);
-  font-size: 16px;
-  line-height: 1.6;
-}
+
 
 /* ================= BUTTON ================= */
 .custom-btn-style {
@@ -48,12 +44,29 @@
   display: inline-block;
   transition: all 0.3s ease;
 }
-
+.last-section-btn{
+  background-color: #0769B0;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  
+}
 .custom-btn-style:hover {
   background-color: #fff !important;
   color: #000;
   box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
 }
+.last-section-btn:hover {
+  background-color: #07538a !important;
+  color: #000;
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
 
 /* ================= CONTENT SECTIONS ================= */
 .content-sections {
@@ -167,7 +180,7 @@
 }
 
 .responsive-star {
-  width: 30%;
+  width: 25%;
   max-width: 173px;
   height: auto;
 }
@@ -229,6 +242,11 @@
   .right-inverted {
     bottom: -18px;
     right: -6px;
+  }
+  .responsive-star {
+    width: 15% !important;
+    max-width: 173px;
+    height: auto;
   }
 }
 
@@ -331,6 +349,11 @@
   .right-inverted {
     bottom: -12px;
     right: -16px;
+  }
+  .responsive-star {
+    width: 30% !important;
+    max-width: 173px;
+    height: auto;
   }
 
 }

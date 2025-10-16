@@ -27,20 +27,14 @@
 
 .hero-section-style h4 {
   color: #FDD835;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 34px;
 }
 
-.hero-section-style p {
-  color: rgb(249, 246, 246);
-  font-size: 16px;
-  line-height: 1.6;
-}
 
 /* ================= BUTTON ================= */
 .custom-btn-style {
   background-color: #FDD835;
-  color: #ffff;
+  color: #2C2C2C;
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 12px;
@@ -51,7 +45,7 @@
 
 .custom-btn-style:hover {
   background-color: #e4c22d;
-  color: #ffff;
+  color: #2C2C2C;
 }
 
 /* ================= CONTENT SECTIONS ================= */
